@@ -1,0 +1,85 @@
+/* Basic styling for tribute page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #0a4d68;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #555;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #66de09;
+}
+
+.content {
+    text-align: justify;
+    padding: 10px 30px;
+}
+
+h2 {
+    color: #681f02;
+    border-bottom: 2px solid #0a4d68;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 20px 30px;
+    background-color: #b0063c;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.footer h3 {
+    color: #0a4d68;
+}
+
+.footer ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    margin-top: 15px;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #a70094;
+}
