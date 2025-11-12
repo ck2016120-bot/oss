@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="landing1.css" />
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("YOUR_PUBLIC_KEY"); // 👈 Replace with your EmailJS Public Key
+    })();
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Landing Page</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Welcome to my landing page — built with HTML, CSS, JS, and EmailJS!</p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="feature-box">Clean design</div>
+    <div class="feature-box">Responsive layout</div>
+    <div class="feature-box">Working contact form</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="fromName" placeholder="Your Name" required />
+      <input type="email" id="fromEmail" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="statusMsg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Landing Page | Designed by You</p>
+  </footer>
+
+  <script src="landing1.js"></script>
+</body>
+</html>
